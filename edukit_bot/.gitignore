@@ -1,0 +1,10 @@
+parts/
+stage/
+prime/
+snap/.snapcraft/
+*.snap
+
+.catkin_workspace
+build/
+devel/
+src/CMakeLists.txt

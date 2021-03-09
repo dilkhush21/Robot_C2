@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>edukit_bot</name>
+  <version>0.1.0</version>
+  <description>The edukit_bot package</description>
+
+  <maintainer email="kyrofa@ubuntu.com">Kyle Fazzari</maintainer>
+
+  <license>GPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>python-rpi.gpio</exec_depend>
+ 
+  <exec_depend>teleop_twist_keyboard</exec_depend>
+</package>
