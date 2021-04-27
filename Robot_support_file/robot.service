@@ -1,0 +1,10 @@
+[Unit]
+Description=start roscore
+After=remote-fs.target
+After=syslog.target
+[Service]
+ExecStart=/home/pi/robo.sh
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
