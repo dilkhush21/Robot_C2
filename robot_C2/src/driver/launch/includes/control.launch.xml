@@ -1,3 +1,0 @@
-<launch>
-	<node name="driver" pkg="driver" type="driver_node" />
-</launch>

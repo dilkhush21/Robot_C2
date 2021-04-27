@@ -1,3 +1,0 @@
-<launch>
-	<include file="$(find driver)/launch/includes/control.launch.xml" />
-</launch>
