@@ -8,5 +8,5 @@
 # point to Focus
 
 MQ2 gas sensor can't be connected to any raspberry pi GPIO pin directly so we use ADS1115. It support 4 analog sensor and it communicate to PI with I2C.
-We have already used I2c pin of raspberry pi for Display touch ,so we make software I2C on gpio pin 26 and 27. 
+We have already used I2c pin of raspberry pi for Display touch ,so we made software I2C on gpio pin 26 and 27. 
 we have to do some change in python libaray of mq2 gas sensor i.e changing I2C address from default to new software enabled I2C GPIO pins
