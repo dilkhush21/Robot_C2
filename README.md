@@ -5,7 +5,7 @@ It's is a Humanoid robot. Currently it is in developing stage.
 
 - **Robot_support_file** -  This folder contains config files
 
-- **edubot** - Robot basic motion
+- **edubot** - Ros based motion of robot 
 
 - **face recog** - face recognistion module
 
