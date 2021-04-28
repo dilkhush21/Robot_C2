@@ -1,4 +1,9 @@
 # File Structure
+
+```mermaid
+graph LR
+A[edukit_bot]--> B[src] -->C[edukit_bot] -->D[src] --> E[driver_node]
+```` 
 - **edukit_bot**   This is the workspace folder
 - **SRC** This is the source folder for diffrent RoS package
 - **edukit_bot** This is our created robot package which is used for basic motion
