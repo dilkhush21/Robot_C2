@@ -1,6 +1,6 @@
 # File Structure
 ```
-A[**edukit_bot**]--> B[**src**] -->C[**edukit_bot**] -->D[**src**] -->E[**driver_node**]
+A[edukit_bot]--> B[src] -->C[edukit_bot] -->D[src] -->E[driver_node]
 ```
 - **edukit_bot**   This is the workspace folder
 - **SRC** This is the source folder for diffrent RoS package
