@@ -27,4 +27,5 @@ It's is a Humanoid robot. Currently it is in developing stage.
 11)  Go to git repository and "Robot_support_file" to download opencv.sh and install_ROS.sh to pi's /home/pi folder
 12)  In terminal use ```chmod +x  opencv.sh``` and ```chmod +x  install_ROS.sh```to give permission
 13)  run opencv.sh using command ```\opencv.sh```. .
+14)  The pi will automatically restart after completing the script
 15)  run opencv.sh using command ```\install_ROS.sh```
