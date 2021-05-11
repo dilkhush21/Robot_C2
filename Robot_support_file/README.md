@@ -11,3 +11,5 @@
 | ------ | ------ |
 | Autostart | /etc/xdg/lxsession/LXDE-pi  |
 | robot.service | /etc/systemd/system |
+| ssh | in boot partition of memory card  |
+| wifi_supplicant | in boot partition of memory card |
