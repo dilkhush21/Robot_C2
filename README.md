@@ -28,4 +28,15 @@ It's is a Humanoid robot. Currently it is in developing stage.
 12)  In terminal use ```chmod +x  opencv.sh``` and ```chmod +x  install_ROS.sh```to give permission
 13)  run opencv.sh using command ```\opencv.sh```. .
 14)  The pi will automatically restart after completing the script
-15)  run opencv.sh using command ```\install_ROS.sh```
+15)  To check whether opencv installed propely or not in your system use command ```python3``` on terminal and then ```import cv2```
+16)  run install_ros.sh using command ```\install_ROS.sh```
+17)  ros_workspace named ros_catkin_ws will be created automatically after using script install_ros.sh
+18)  To check whether RoS is properly installled or not ,use command ```roscore``` to check
+19)  if you get some output then you have succesfully installed  
+20)  you have to install all ros packages inside that folder
+21)  now copy the edukit_bot/src/edukit_bot folder from git to src folder of /home/pi/ros_catkin_ws
+22)  use ```sudo nano ~/.bashrc``` command  and add ```source ~/ros_catkin_ws/devel/setup.bash``` 
+23)  to compile the newly compiled package use ```catkin_make``` 
+24)  2 min sir 
+25)  
+26)  
