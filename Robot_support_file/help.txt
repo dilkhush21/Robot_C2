@@ -1,0 +1,5 @@
+sudo systemctl daemon-reload
+udo systemctl start robot.service
+sudo systemctl stop robot.service
+sudo systemctl status robot.service
+sudo systemctl enable robot.service
