@@ -1,0 +1,4 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash
+@/usr/bin/chromium-browser --kiosk http://localhost:1880/ui --disable-pinch --disable-infobars
