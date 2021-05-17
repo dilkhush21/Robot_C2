@@ -21,8 +21,9 @@ It's is a Humanoid robot. Currently it is in developing stage.
 4)  Insert memory card to raspbarry pi
 5)  Check ip of pi using ip scanner - you may narrow down the search range to IPs that you wifirouter is currently supporting
 6)  Use "MobaXtern" or any SSH client to connect to the pi 
-7)  *Open GUI using command startlxde and copy the git repo all files and folder to /home/pi 
-8)  edit /etc/dphys-swapfile and change CONF_SWAPSIZE to 2048
+7)  *Open GUI using command startlxde
+8)  copy the downloaded git repo all files and folder to /home/pi 
+9)  edit /etc/dphys-swapfile and change CONF_SWAPSIZE to 2048
 10)  Open Chromium from startmenu bar
 11)  Go to git repository and "Robot_support_file" to download opencv.sh and install_ROS.sh to pi's /home/pi folder
 12)  In terminal use ```chmod +x  opencv.sh``` and ```chmod +x  install_ROS.sh```to give permission
@@ -40,9 +41,10 @@ It's is a Humanoid robot. Currently it is in developing stage.
 24)  Go into robot_support folder and execute config_file.sh ```.\config_file.sh```
 25)  Install node-red by startmenu->prefrence->recommendedsoftware
 26)  *start the node-red server by ```node-red``` command
-27)  import the flow.json from node_red_scripts folder ______
-28)  add missing palette by going to manage palette section
-29)  doownload following palette -> 
-30 
-28)  
-28)	 
+27)  enter command ```sudo systemctl enable nodered.service``` to autostart nodered server at boot
+28)  import the flow.json from node_red_scripts folder (
+29)  add missing palette by going to manage palette section
+30)  doownload following palette -> node-red-contrib-camerapi,node-red-contrib-dht-sensor,node-red-dashboard
+31)  now we will install customised google assistant 
+32)  use command ```sudo chmod +x ./GassistPi/scripts/gassist-installer.sh``` to make installer exectable and ```sudo  ./GassistPi/scripts/gassist-installer.sh``` to execute
+33)  enter the details of the credential from robot_support_file/gassist_credential file 
