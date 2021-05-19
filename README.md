@@ -48,3 +48,7 @@ It's is a Humanoid robot. Currently it is in developing stage.
 31)  now we will install customised google assistant 
 32)  use command ```sudo chmod +x ./GassistPi/scripts/gassist-installer.sh``` to make installer exectable and ```sudo  ./GassistPi/scripts/gassist-installer.sh``` to execute
 33)  enter the details of the credential from robot_support_file/gassist_credential file 
+34)  now install ros control app from playstore 
+35)  enter pi ip adress and press connect button and it will connect
+36)  go to add configuration and add joystic and screen
+37)  now you can control your robot by android 
